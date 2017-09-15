@@ -36,5 +36,4 @@ exports.server = new Promise(resolve =>
     console.log(`Server started — http://localhost:${port}`)
   })
 )
-
 exports.stop = () => new Promise(resolve => app.close(resolve))
